@@ -1,0 +1,18 @@
+{
+  "status": "healthy",
+  "timestamp": "2024-10-27T10:30:00Z",
+  "service": "auth-gateway",
+  "version": "1.2.3",
+  "uptime_seconds": 3600,
+  "dependencies": {
+    "database": "online",
+    "redis": "online",
+    "identity_provider": "online"
+  },
+  "metrics": {
+    "cpu_usage": 0.15,
+    "memory_usage_mb": 256,
+    "request_rate_per_second": 10.5,
+    "error_rate_per_second": 0.01
+  }
+}
